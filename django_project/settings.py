@@ -29,7 +29,7 @@ SECRET_KEY = env.str("SECRET_KEY")
 DEBUG = env.bool("DEBUG", default=False)
 
 ALLOWED_HOSTS = [" csci258-news.fly.dev", "localhost", "127.0.01"]
-CSRF_TRUSTED_ORIGINS =["https:// csci258-news.fly.dev"]
+CSRF_TRUSTED_ORIGINS =["https://csci258-news.fly.dev"]
 
 
 # Application definition
